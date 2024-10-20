@@ -16,22 +16,58 @@
     <link rel="stylesheet"
         href="style.css">
     <style>
+        
         .main ul {
-            list-style-type: none; 
-            padding: 0;           
-            margin: 0;            
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        
+    </style>
+    <style>
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: none;
         }
     </style>
-        <style>
-            .contact-info a {
-                color: white;
-                text-decoration: none;
+    <style>
+        body {
+            color: rgb(237, 84, 110);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
             }
-    
-            .contact-info a:hover {
-                text-decoration: none;
+
+            to {
+                opacity: 1;
             }
-        </style>
+        }
+
+        h1 {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(237, 84, 110);
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgb(200, 60, 90);
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 
 
@@ -101,14 +137,18 @@
             <p>Contact Us</p>
             <p>Email: <a href="mailto:your-email@example.com">sissieshouse@gmail.com</a></p>
             <p>Phone: <a href="tel:+1234567890">+1 (609) 335-5555</a></p>
-            <p>Website: <a href="https://www.yourwebsite.com" target="_blank">www.sissieshouse.org</a></p>
+            <p>Website: <a href="https://www.yourwebsite.com"
+                    target="_blank">www.sissieshouse.org</a></p>
             <p>Follow us on:
-                <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>,
-                <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>,
-                <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/yourprofile"
+                    target="_blank">Facebook</a>,
+                <a href="https://www.twitter.com/yourprofile"
+                    target="_blank">Twitter</a>,
+                <a href="https://www.instagram.com/yourprofile"
+                    target="_blank">Instagram</a>
             </p>
         </div>
-                
+
         <p>&copy; 2024 SISSIES HOUSE All Rights Reserved.</p>
 
     </footer>
