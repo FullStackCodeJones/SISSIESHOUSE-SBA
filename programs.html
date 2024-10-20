@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Programs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: rgb(253, 184, 56);
+        }
+        header {
+            background-color: rgb(253, 184, 56);
+            color: rgb(253, 184, 56);
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            color: rgb(237, 84, 110);
+        }
+        .program {
+            background-color: rgb(253, 184, 56);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+            padding: 15px;
+        }
+        .program p {
+            margin: 10px 0;
+        }
+        form {
+            background-color: rgb(253, 184, 56);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .program-select {
+            background-color: rgb(253, 184, 56);
+            color: rgb(237, 84, 110);
+            border: 1px solid #ddd;
+            padding: 5px;
+            border-radius: 4px;
+    
+        }
+        .program-select option {
+            color: rgb(237, 84, 110);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid rgb(253, 184, 56);
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(253, 184, 56)
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color:rgb(253, 184, 56); 
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🏠Sissies Programs🏠</h1>
+    <nav>
+
+
+        <div class="navbar">
+
+
+
+
+            <a href="index.html"
+                class="button">Home</a>
+            <br />
+            <a href="about.html"
+                class="button">About Us</a>
+            <br />
+            <a href="programs.html"
+                class="button">Programs</a>
+            <br />
+            <a href="get_involved.html"
+                class="button">Get Involved</a>
+            <br />
+        </div>
+        <nav class="main">
+        </nav>
+        <main>
+            <section class="program">
+                <h2>1. Emergency Shelter</h2>
+                <p>Our emergency shelter provides a safe haven for individuals and families fleeing domestic violence.
+                    With 24/7 availability, we offer confidential accommodations, meals, and essential supplies to help
+                    survivors transition to a safer environment.</p>
+            </section>
+
+            <section class="program">
+                <h2>2. Counseling Services</h2>
+                <p>We offer free, confidential counseling services led by trained professionals. Our therapists
+                    specialize in trauma-informed care, helping survivors process their experiences and develop coping
+                    strategies. Individual and group therapy sessions are available.</p>
+            </section>
+
+            <section class="program">
+                <h2>3. Legal Assistance</h2>
+                <p>Navigating the legal system can be daunting. Our legal aid program provides guidance and
+                    representation in matters such as restraining orders, custody issues, and divorce proceedings. We
+                    work to ensure that survivors understand their rights and receive the support they need.</p>
+            </section>
+
+            <section class="program">
+                <h2>4. Support Groups</h2>
+                <p>Our support groups create a safe space for survivors to share their experiences and connect with
+                    others. These peer-led sessions foster community, understanding, and healing, helping participants
+                    build resilience and regain their strength.</p>
+            </section>
+
+            <section class="program">
+                <h2>5. Financial Literacy Workshops</h2>
+                <p>Understanding finances is crucial for independence. Our financial literacy workshops cover budgeting,
+                    savings, and job readiness, empowering survivors to take control of their financial futures and
+                    build a stable life.</p>
+            </section>
+
+            <section class="program">
+                <h2>6. Advocacy and Outreach</h2>
+                <p>We engage in community outreach and advocacy to raise awareness about domestic violence and the
+                    resources available to survivors. Through workshops, presentations, and collaborations with local
+                    organizations, we strive to create a supportive community for all.</p>
+            </section>
+
+            <section class="program">
+                <h2>7. Children’s Programs</h2>
+                <p>Recognizing that children are also affected by domestic violence, we offer specialized programs for
+                    young survivors. These include counseling, educational support, and recreational activities designed
+                    to promote healing and resilience.</p>
+            </section>
+
+            <section>
+                <h2>Get Involved</h2>
+                <form>
+                    <label for="program">Select a Program:</label>
+                    <select id="program"
+                        name="program">
+                        <option value="shelter">Emergency Shelter</option>
+                        <option value="counseling">Counseling Services</option>
+                        <option value="legal">Legal Assistance</option>
+                        <option value="support">Support Groups</option>
+                        <option value="financial">Financial Literacy Workshops</option>
+                        <option value="advocacy">Advocacy and Outreach</option>
+                        <option value="children">Children’s Programs</option>
+                    </select>
+                    <br><br>
+                    <label for="name">Your Name:</label>
+                    <input type="text"
+                        id="name"
+                        name="name"
+                        required>
+                    <br><br>
+                    <label for="email">Your Email:</label>
+                    <input type="email"
+                        id="email"
+                        name="email"
+                        required>
+                    <br><br>
+                    <input type="submit"
+                        value="Submit">
+                </form>
+            </section>
+
+            <section>
+                <h2>Program Schedule</h2>
+                <table>
+                    <tr>
+                        <th>Program</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Support Group</td>
+                        <td>1st Monday of the Month</td>
+                        <td>6:00 PM - 8:00 PM</td>
+                        <td>Main Office</td>
+                    </tr>
+                    <tr>
+                        <td>Financial Literacy Workshop</td>
+                        <td>2nd Wednesday of the Month</td>
+                        <td>5:00 PM - 7:00 PM</td>
+                        <td>Community Center</td>
+                    </tr>
+                    <tr>
+                        <td>Children’s Program</td>
+                        <td>Every Saturday</td>
+                        <td>10:00 AM - 12:00 PM</td>
+                        <td>Child Care Room</td>
+                    </tr>
+                    <tr>
+                        <td>Emergency Services</td>
+                        <td>24/7</td>
+                        <td>Hotline: (800) 799-7233</td>
+                        <td>Nation Wide</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sissies House. All rights reserved.</p>
+        </footer>
+
+</body>
+
+</html>

@@ -13,6 +13,7 @@ h1 {
     justify-content: center;
     font-weight: 800;
     font-size: 800;
+    list-style: none;
 }
 
 .navbar {
@@ -34,17 +35,17 @@ h1 {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: rgb(237, 80, 110);
+    color: rgb(237, 84, 110);
     font-weight: bolder;
+    list-style: none;
 }
 
-.main ul {
+.nav ul {
     list-style: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    
-
     }
+
 
 img {
     display: block;
@@ -61,8 +62,9 @@ h1 {
 }
 
 p {
-    color: rgb(237, 80, 110);
+    color: rgb(237, 84, 110);
     text-align: center;
+    list-style: none;
 }
 
 @media (max-width: 768px) {
@@ -77,4 +79,53 @@ p {
     h1 {
         font-size: 1.2em; /* Example: Even smaller heading */
     }
+}
+
+.contact-info p {
+    color: white pink;
+}
+
+.btn-custom {
+    background-color: white !important; 
+    color: rgb(237, 80, 110) !important; 
+    border: 2px solid rgb(237, 80, 110) !important; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn-custom:hover {
+    background-color: rgb(237, 80, 110) !important; 
+    color: white !important; 
+}
+
+h2 {
+    color: rgb(237, 84, 110);
+    text-align: center;
+    list-style: none;
+}
+
+.form id{
+    color: rgb(237, 84, 110);
+    text-align: center;
+    list-style: none;
+}
+
+.program-select {
+    background-color: rgb(237, 84, 110);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+th {
+    color: white;
+
+}
+
+td {
+    color: white;
+}
+
+label {
+    color: white;
 }
